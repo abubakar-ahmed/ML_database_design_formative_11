@@ -19,7 +19,7 @@ CREATE TABLE race_results (
     driver_id INT,
     race_id INT,
     completed_laps INT NOT NULL,
-    `rank` INT NOT NULL,  -- Backticks used to avoid conflict with reserved keyword
+    race_rank INT NOT NULL,
     elapsed_time FLOAT NOT NULL,
     rank_diff FLOAT NOT NULL,
     time_diff FLOAT NOT NULL,
